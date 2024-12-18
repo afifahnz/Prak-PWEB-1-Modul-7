@@ -1,0 +1,35 @@
+/* Mengatur warna latar belakang navbar menjadi hitam */
+.navbar {
+    background-color: #000; /* Warna hitam */
+}
+/* Mengatur warna teks di navbar menjadi putih */
+.navbar .navbar-brand, .navbar .nav-link,
+.navbar .dropdown-item, .navbar-toggler-icon {
+    color: #fff; /* Warna putih */
+}
+.dropdown-menu{
+    background-color: #222;
+    border: 2px solid #444;
+}
+/* Mengatur hover pada item dropdown */
+.navbar .dropdown-item:hover {
+    background-color: #333; /* Abu-abu gelap untuk hover */
+    color: #fff; /* Tetap putih */
+}
+.nav-link.disabled{
+    color: #777;
+}
+.navbar .form-control {
+    background-color: #222; /* Warna teks putih */
+    color: #fff;
+
+}
+/* Mengatur border dan warna tombol saat hover */
+.navbar .btn-outline-success {
+    color: #fff; /* Warna teks putih */
+    border-color: #fff; /* Border putih */
+}
+.navbar .btn-outline-success:hover {
+    background-color: #fff; /* Background putih saat hover */
+    color: #000; /* Warna teks hitam saat hover */
+}
